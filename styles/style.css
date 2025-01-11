@@ -337,7 +337,7 @@ body{
     border-radius: 24px;
     /* background: rgb(255, 255, 255); */
 }
-/* shared color */
+/* shared style */
 
 .nws-title{
     font-size: 32px;
@@ -345,8 +345,14 @@ body{
     color: #0E0E0ECC;
     margin-bottom: 12px;
     background-color: #FFFFFF;
+
     
 }
+
+.text-al{
+    text-align: center;
+}
+
 .date-time{
     font-size: 16px;
     font-weight: 400;
@@ -380,4 +386,185 @@ body{
     background-color: #FFFFFF;
 
 
+}
+
+
+/* donate style started */
+.donate-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.donate-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB3;
+    width: 1104;
+    margin-bottom: 32px;
+}
+
+
+.taka-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.taka-buttonn{
+        font-size: 40px;
+        font-weight: 700;
+        color: #0E0E0ECC;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        padding: 40px;
+        cursor: pointer;
+}
+
+.empty-button{
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    width: 1032px;
+    height: 64px;
+    border:none;
+    display: flex;
+
+    
+    
+}
+
+.button-donate{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.donate-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+    
+}
+.subscribe-tittle{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    
+    text-align: center;
+    background-color: #C6E4D6;
+    
+}
+.paragraph-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB3;
+    width: 622px;
+    height: 48px;
+    text-align: center;
+    background: #C6E4D6;
+    margin-bottom: 24px;
+    margin-top: 16px;
+    
+    
+}
+
+.email-sub{
+    display: flex;
+    justify-content: center;
+    background: #C6E4D6;
+
+}
+
+.subscribe-buttn{
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 17px 34px 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    border: none;
+    margin-bottom: 15px;
+    
+    
+    
+    
+}
+
+.email-box{
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    width: 600px;
+    height: 55px;
+    border: none;
+
+
+}
+
+.subscribe{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    background: #C6E4D6;
+    margin-top: 80px;
+
+}
+
+.put-center{
+    display: flex;
+    justify-content: center;
+    background: #C6E4D6;
+   
+}
+.not-spam{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background: #C6E4D6;
+   
+
+
+}
+
+.banl{
+    font-size: 32px;
+font-weight: 700;
+margin-top: 130px;
+text-align: center;
+margin-bottom: 31px;
+
+}
+.mini-ico{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 32px;
+    margin-bottom: 32px
+    
+    
+}
+.for-padding{
+    
+    
+
+    
 }
