@@ -244,3 +244,47 @@ body{
 .con-img{
     background-color: transparent;
 }
+
+/* Dr Yunus  */
+
+.title-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0ECC;
+    background-color: transparent;
+}
+.Yunus-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0ECC;
+    margin-top: 12px;
+    background-color: transparent;
+}
+.Yunus-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E99;
+    margin-top: 4px;
+    background-color: transparent;
+}
+
+.mini-banner{
+    background: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: white; /* or any other color */
+    background-color: transparent;
+
+    
+
+}
+
+.Yunus-div{
+    padding: 30px 24px 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);   
+    margin-top: 32px; 
+    background-color: transparent;
+}
+
