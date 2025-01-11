@@ -35,6 +35,13 @@ nav{
     padding: 15px 30px 15px 30px;
 
 }
+/* hovar */
+.sign-in-button:hover{
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    background:linear-gradient(to right, #efabab, #c53b3b);
+
+}
 
 /* First main banner */
 .banner-tittle{
@@ -71,6 +78,12 @@ nav{
     
 }
 
+.btn-primary:hover{
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+    background:linear-gradient(to right, #efabab, #c53b3b);
+}
+
 .banner-container{
     background-color: transparent;
 }
@@ -100,13 +113,7 @@ body{
     margin-top: 18px;
     /* padding: 24px; */
     margin-bottom: 60px;
-    align-items: center;
-    
-   
-    
-
-
-    
+    align-items: center;    
 }
 
 .pillar-title{
@@ -133,12 +140,14 @@ body{
     font-weight: 700;
     margin-bottom: 12px;
     margin-top: 25px;
+    color: #0E0E0ECC;
     
 }
 
 .structure-description{
     width: 254px;
     height: 72px;
+    color: #0E0E0EB3;
 }
 
 
@@ -198,6 +207,11 @@ body{
     cursor: pointer;
     
 }
+.button-style-one:hover{
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    background:linear-gradient(to right, #efabab, #c53b3b);
+}
 
 .button-style-two{
     font-size: 16px;
@@ -212,6 +226,12 @@ body{
     
 }
 
+.button-style-two:hover{
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    background:linear-gradient(to right, #efabab, #c53d3b);
+}
+
 .button-style-three{
     font-size: 16px;
     font-weight: 600;   
@@ -222,6 +242,11 @@ body{
     border: none;
     margin-top: 64px;
     cursor: pointer;
+}
+.button-style-three:hover{
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    background:linear-gradient(to right, #efabab, #c53d3b);
 }
 
 .vcon-one {
@@ -358,8 +383,8 @@ body{
     font-weight: 400;
     color: #0E0E0EB3;
     background-color: #FFFFFF;
-  
-    
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 .nws-description{
     font-size: 16px;
@@ -382,6 +407,14 @@ body{
     cursor: pointer;
     
 }
+
+/* Havor effect */
+.sndbutton:hover{
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    background:linear-gradient(to right, #efabab, #c53b3b);
+}
+
 .aljajera{
     background-color: #FFFFFF;
 
@@ -450,8 +483,15 @@ body{
     background: rgb(0, 106, 80);
     border: none;
     cursor: pointer;
+
     
     
+}
+/* havor effect */
+.donate-btn:hover{
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    background:linear-gradient(to right, #efabab, #c53b3b);
 }
 
 .center-container{
@@ -501,12 +541,17 @@ body{
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
     border: none;
-    margin-bottom: 15px;
-    
-    
-    
-    
+    margin-bottom: 15px;    
 }
+/* for havor */
+.subscribe-buttn:hover{
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    background:linear-gradient(to right, #efabab, #c53b3b);
+}
+
+
+
 
 .email-box{
     font-size: 16px;
@@ -516,6 +561,7 @@ body{
     width: 600px;
     height: 55px;
     border: none;
+    padding: 0px 40px 0px 40px;
 
 
 }
@@ -547,10 +593,10 @@ body{
 
 .banl{
     font-size: 32px;
-font-weight: 700;
-margin-top: 130px;
-text-align: center;
-margin-bottom: 31px;
+    font-weight: 700;
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 31px;
 
 }
 .mini-ico{
@@ -562,9 +608,54 @@ margin-bottom: 31px;
     
     
 }
-.for-padding{
+/* .for-padding{
     
     
 
     
+} */
+
+/* for hover donate  */
+
+.taka-buttonn:hover {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 40px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    background:#bce2d1;
+}
+/* }
+.taka-buttonn:hover {
+    background-color: #C6E4D6; 
+} */
+
+/* .havor-effect:hover{
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+    background-color: #C6E4D6; 
+} */
+
+
+/* shared havar */
+.vcon-one:hover{
+
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    background:linear-gradient(to right, #7ea7dd, #ffdbdb);
+
+}
+.vcon-two:hover{
+
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    background:linear-gradient(to right, #b9eac0, #ffdcdc);
+
+}
+.vcon-three:hover{
+
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    background:linear-gradient(to right, #e3ecaf, #ffd3d3);
+
 }
